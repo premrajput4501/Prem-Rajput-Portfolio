@@ -5,6 +5,8 @@
 
 .navbar{
     border: 0px solid transparent;
+    background-color: rgba(11, 31, 73, 0.973);
+    background-blend-mode: lighten;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.304);
 }
 
@@ -72,7 +74,7 @@
 }
 
 .my-photo{
-    margin-top: 40px;
+    margin-top: 120px;
     transform: rotate(-2deg);
     border-radius: 50%;
     transition: transform 0.3s;
@@ -230,22 +232,12 @@
 @media (max-width:768px){
 
     .navbar-brand img{
-        margin-top: -40px;
+        margin-top: -30px;
         margin-left: -40px;
-        /* padding: 20px; */
     }
 
     .navbar-brand img:hover{
         background-color: transparent;
-    }
-
-    .navbar-toggler{
-        margin-top: -25px;
-    }
-
-    .navbar{
-        margin-top: 15px;
-        /* box-shadow: none; */
     }
 
     .my-name{
@@ -260,6 +252,7 @@
     }
 
     .my-photo{
+        margin-top: 80px;
         width: 140px;
     }
 
