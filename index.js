@@ -4,7 +4,6 @@ function playSound(soundPath) {
 }
 
 document.querySelector(".navbar-toggler").addEventListener("click", function() {
-  
   playSound('./Sounds/click1.wav');
 });
 
